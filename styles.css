@@ -1,0 +1,145 @@
+/* Estilo general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f7f4; /* Fondo claro para contrastar con #e3cdbe */
+}
+
+/* Estilos del Header */
+.header {
+    background-color: rgba(227, 205, 190, 0.8); /* Color principal con transparencia */
+    color: #333; /* Texto oscuro para contraste */
+    padding:  1em;
+    text-align: center;
+}
+
+.nav-list a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-list a:hover {
+    background-color: #e3cdbe;
+    color: white;
+}
+
+/* Fondo de bienvenida */
+.inicio {
+    background-image: url('spa-background.jpg');
+    background-size: cover;
+    padding: 80px 20px;
+    color: white;
+    text-align: center;
+}
+
+.welcome-content {
+    background-color: rgba(0, 0, 0, 0.4); /* Fondo oscuro translúcido */
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* Botones */
+.btn {
+    display: inline-block;
+    background-color: #e3cdbe;
+    color: #333;
+    padding: 12px 25px;
+    border-radius: 20px; /* Bordes redondeados para apariencia orgánica */
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #c5a899;
+}
+
+/* Sección de servicios */
+.servicios {
+    background-color: rgba(227, 205, 190, 0.3); /* Fondo principal en tono muy claro */
+    padding: 60px 20px;
+    border-radius: 10px;
+}
+
+.service-item {
+    background-color: rgba(227, 205, 190, 0.15);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Galería */
+.galeria {
+    padding: 60px 20px;
+    background-color: rgba(245, 240, 235, 0.9); /* Suave fondo claro */
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Testimonios */
+.testimonios {
+    padding: 60px 20px;
+    background-color: rgba(235, 220, 210, 0.8);
+}
+
+.testimonial {
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 4px solid #e3cdbe;
+    font-style: italic;
+}
+
+/* Modal */
+.modal-content {
+    background: #f9f7f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+}
+
+.close-modal {
+    background-color: #e3cdbe;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.close-modal:hover {
+    background-color: #c5a899;
+}
