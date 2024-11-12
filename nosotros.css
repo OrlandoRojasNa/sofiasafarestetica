@@ -125,7 +125,7 @@ body {
     border-radius: 10px;
     transition: transform 1.25s ease, box-shadow 0.4s ease;
 }
-
+/*comentario*/
 .titulo:hover {
     transform: scale(1.05);
 }
