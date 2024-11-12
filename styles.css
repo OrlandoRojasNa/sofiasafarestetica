@@ -13,6 +13,8 @@ body {
 }
 
 .menu a {
+    display: flex;
+    gap: 45px;
     float: right;
     display: block;
     color: #fbf6c6;
