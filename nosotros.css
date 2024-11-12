@@ -34,8 +34,8 @@ body {
 
 /* Efecto de paralaje */
 .imagen-parallax {
-    background-image: url('Images/nosotros/estetica.png');
-    height: 500px; /* Ajusta según tu preferencia */
+    background-image: url('Images/nosotros/fondo\ dorado.png');
+    height: 200px; /* Ajusta según tu preferencia */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -51,7 +51,7 @@ body {
 }
 
 .section-title {
-    font-size: 36px;
+    font-size: 56px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 20px;
     text-align: center;
@@ -72,11 +72,11 @@ body {
     width: 100%;
     height: auto;
     border-radius: 6px;
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    transition: transform 1.25s ease, box-shadow 0.4s ease;
 }
 
 .bio-image img:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -111,7 +111,7 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap: 156px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #f9f9f9;
@@ -119,7 +119,8 @@ body {
 
 .titulo {
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
-    font-size: 48px;
+    font-size: 64px;
+    font-weight: 200;
     padding: 10px;
     border-radius: 10px;
     transition: transform 1.25s ease, box-shadow 0.4s ease;
