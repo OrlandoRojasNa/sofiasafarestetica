@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url('https://www.esteticvenus.com/wp-content/uploads/2018/09/COSMETOLOGIA.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+    line-height: 1.6;
+}
+
+.menu {
+    background-color: #f2d64a;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu a {
+    display: flex;
+    gap: 45px;
+    float: right;
+    display: block;
+    color: #fbf6c6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: solid;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.menu a:hover {
+    background-color: #f7ea91;
+    color: #bf850f;
+    border-radius: 6px;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.bloque {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#servicios h2, .titulo-slogan, .tratamientos-corporales h3, .tratamientos-faciales h3 {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;  
+}
+
+.servicios-contenedor {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tratamientos-corporales, .tratamientos-faciales, .contenido-slogan {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.tratamientos-corporales h3, .tratamientos-faciales h3, .titulo-slogan {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.imagen-contenedor, .contenido-slogan p {
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: height 0.6s ease, opacity 0.6s ease;
+}
+
+.tratamientos-corporales:hover .imagen-contenedor,
+.tratamientos-faciales:hover .imagen-contenedor,
+.contenido-slogan:hover p {
+    height: 250px;
+    opacity: 1;
+}
+
+.imagen-contenedor img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.boton-contacto {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.boton-contacto a {
+    background-color: transparent; 
+    color: black; 
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid black; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.boton-contacto a:hover {
+    background-color: #f2d64a; 
+    color: black; 
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Footer */
+.footer {
+    background-color: #f2d64a;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid #bf850f;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-column h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #fbf6c6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: #bf850f;
+}
+
+.footer-column p {
+    margin: 10px;
+}
+
+.footer-column iframe {
+    width: 50%; /* Ajusta según tu preferencia */
+    height: 200px; /* Ajusta según tu preferencia */
+    border: 0;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: black; 
+    margin-top: 50px;
+    font-weight: bold;
+}
