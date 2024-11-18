@@ -98,8 +98,23 @@ body {
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.5;
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    transition: transform 0.4s ease, box-shadow 0.4s ease, color 0.4s ease; /* Añadimos transición para el color */
+
+    /* Fondo blanco */
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado alrededor del texto */
+    
+    /* Sombra sutil para darle profundidad */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    /* Color de texto inicial */
+    color: #333; /* Texto oscuro para buen contraste */
+    
+    /* Borde sutil */
+    border: 1px solid #e0e0e0; /* Borde muy claro */
 }
+
 
 .bio-text:hover {
     transform: scale(1.01);
