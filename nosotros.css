@@ -98,8 +98,23 @@ body {
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.5;
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    transition: transform 0.4s ease, box-shadow 0.4s ease, color 0.4s ease; /* Añadimos transición para el color */
+
+    /* Fondo blanco */
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado alrededor del texto */
+    
+    /* Sombra sutil para darle profundidad */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    /* Color de texto inicial */
+    color: #333; /* Texto oscuro para buen contraste */
+    
+    /* Borde sutil */
+    border: 1px solid #e0e0e0; /* Borde muy claro */
 }
+
 
 .bio-text:hover {
     transform: scale(1.01);
@@ -194,4 +209,22 @@ body {
     height: 200px; /* Ajusta según tu preferencia */
     border: 0;
     border-radius: 10px;
+}
+
+.btn-wsp{
+    width: 80px;
+    background: #14923e;
+    border: #70f09b;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50% 50% 50% 20%;
+    bottom: 20px;
+    right: 25px;
+    padding: 5px;
+    transition: ease 0.3s;
+    animation: wsp 1.2s infinite;
+}
+.btn-wsp:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
 }
