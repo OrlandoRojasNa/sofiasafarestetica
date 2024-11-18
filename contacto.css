@@ -78,7 +78,7 @@ header{
     display: flex;
     flex: 1;
     gap: 100px;
-    
+
 
 }
 
@@ -247,6 +247,59 @@ a{
 .btn-tik:hover{
     transform: scale(1.2);
     transition: 0.3s;
+}
+
+/* Footer */
+.footer {
+    background-color: #f2d64a;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid #bf850f;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-column h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #fbf6c6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: #bf850f;
+}
+
+.footer-column p {
+    margin: 10px;
+}
+
+.footer-column iframe {
+    width: 50%; /* Ajusta según tu preferencia */
+    height: 200px; /* Ajusta según tu preferencia */
+    border: 0;
+    border-radius: 10px;
 }
 @keyframes wsp {
     0%{

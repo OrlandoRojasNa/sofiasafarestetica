@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-image: url('https://www.esteticvenus.com/wp-content/uploads/2018/09/COSMETOLOGIA.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.menu {
+    background-color: #f2d64a;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu a {
+    display: flex;
+    gap: 45px;
+    float: right;
+    display: block;
+    color: #fbf6c6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: solid;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.menu a:hover {
+    background-color: #f7ea91;
+    color: #bf850f;
+    border-radius: 6px;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #f2d64a;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.servicios {
+    padding: 50px 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+
+.servicios h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #f4845f;
+}
+
+.servicios-contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.servicio {
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.servicio img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.servicio h3 {
+    margin-top: 10px;
+    color: #f4845f;
+}
+
+.servicio:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.cta {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.cta .btn {
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: #333;
+    background-color: #f2d64a;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta .btn:hover {
+    background-color: #f7ea91;
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    background-color: #f2d64a;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid #bf850f;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-column h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #fbf6c6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: #bf850f;
+}
+
+.footer-column p {
+    margin: 10px;
+}
+
+.footer-column iframe {
+    width: 50%; /* Ajusta según tu preferencia */
+    height: 200px; /* Ajusta según tu preferencia */
+    border: 0;
+    border-radius: 10px;
+}
