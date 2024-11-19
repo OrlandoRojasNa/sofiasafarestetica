@@ -1,161 +1,247 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Servicios Estéticos</title>
-    <link rel="stylesheet" href="servicios.css">
-</head>
-<body>
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
 
-    <nav class="menu">
-        <a href="paginahome.html">Inicio</a>
-        <a href="nosotros.html">Nosotros</a>
-        <a href="contacto.html">Contáctanos</a>
-        <a href="servicios.html">Servicios</a>
-    </nav>
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
 
-    <!-- Sección de Servicios -->
-    <section class="servicios" id="servicios">
-        <h1>Servicios Estéticos</h1>
-        <div class="lista-servicios">
-            <!-- Servicio: Reducción Corporal -->
-            <div class="servicio servicio-reduccion-corporal">
-                <div class="card">
-                    <div class="front">
-                        <h2>Reducción Corporal</h2>
-                    </div>
-                    <div class="back">
-                        <p>Tratamientos especializados para la reducción de medidas y mejora de la figura.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Servicio: Moldeamiento Contorno -->
-            <div class="servicio servicio-moldeamiento-contorno">
-                <div class="card">
-                    <div class="front">
-                        <h2>Moldeamiento de Contorno</h2>
-                    </div>
-                    <div class="back">
-                        <p>Recupera la firmeza y forma de tu cuerpo con nuestros procedimientos avanzados.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Servicio: Celulitis -->
-            <div class="servicio servicio-celulitis">
-                <div class="card">
-                    <div class="front">
-                        <h2>Tratamiento de Celulitis</h2>
-                    </div>
-                    <div class="back">
-                        <p>Reduce la apariencia de la celulitis y mejora la textura de la piel.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Servicio: Flacidez -->
-            <div class="servicio servicio-flacidez">
-                <div class="card">
-                    <div class="front">
-                        <h2>Tratamiento de Flacidez</h2>
-                    </div>
-                    <div class="back">
-                        <p>Tratamientos efectivos para mejorar la firmeza de la piel y tonificar.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Servicio: Relajación -->
-            <div class="servicio servicio-relajacion">
-                <div class="card">
-                    <div class="front">
-                        <h2>Masajes de Relajación</h2>
-                    </div>
-                    <div class="back">
-                        <p>Recibe un masaje profesional que te ayudará a aliviar el estrés y la tensión muscular.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Servicio: Descontractura -->
-            <div class="servicio servicio-descontractura">
-                <div class="card">
-                    <div class="front">
-                        <h2>Masaje Descontracturante</h2>
-                    </div>
-                    <div class="back">
-                        <p>Alivia contracturas y dolores musculares con nuestras técnicas especializadas.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Servicio: Limpieza Facial Basic Shine -->
-            <div class="servicio servicio-limpieza-basic-shine">
-                <div class="card">
-                    <div class="front">
-                        <h2>Limpieza Facial Basic Shine</h2>
-                    </div>
-                    <div class="back">
-                        <p>Obtén una piel limpia y fresca con nuestra limpieza facial básica.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Servicio: Limpieza Facial Gold Special -->
-            <div class="servicio servicio-limpieza-gold-special">
-                <div class="card">
-                    <div class="front">
-                        <h2>Limpieza Facial Gold Special</h2>
-                    </div>
-                    <div class="back">
-                        <p>Disfruta de una limpieza facial profunda con productos de alta gama.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Servicio: Fototerapia -->
-            <div class="servicio servicio-fototerapia">
-                <div class="card">
-                    <div class="front">
-                        <h2>Fototerapia</h2>
-                    </div>
-                    <div class="back">
-                        <p>Tratamiento facial y corporal con luz LED para rejuvenecer la piel.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+.menu {
+    background-color: #f2d64a;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-    <a href="https://wa.me/573238274675">
-        <img src="Images/contacto/logos--whatsapp-icon.png" alt="logo" class="btn-wsp">
-    </a>
+.menu a {
+    float: right;
+    display: block;
+    color: #fbf6c6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
 
-    <footer class="footer">
-        <div class="footer-column">
-            <h3>Servicios</h3>
-            <ul>
-                <li><a href="servicios.html">Nuestros Servicios</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </div>
-        <div class="footer-column">
-            <h3>Contacto</h3>
-            <p>Celular: +57 3238274675</p>
-            <p>Correo electronico: cosmetologasofiasafa@rgmail.com</p>
-            <h3>Terminos y Condiciones</h3>
-            <li><a href="terminos.html">Términos y Condiciones</a></li>
-            <li><a href="Documentos/Politica de tratamiento de Datos personales Estetica Sofia Safar.pdf">Política de Tratamiento de Datos</a></li>
-        </div>
-        <div class="footer-column">
-            <h3>Redes Sociales</h3>
-            <ul>
-                <li><a href="https://www.tiktok.com/@sofi_saffa?_t=8rEVmzjlb5r&_r=1">Tiktok</a></li>
-                <li><a href="https://www.instagram.com/cosmetologa_sofia_safar?igsh=aGUwNTM0Y2M0ZXlp">Instagram</a></li>
-            </ul>
-        </div>
-        <div class="footer-column">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.597828429658!2d-75.2734266!3d2.9313262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3b75ff89456cdd%3A0x47b0e0246913ccc2!2sSofia%20Safar%20Cosmetolog%C3%ADa%20y%20Est%C3%A9tica!5e0!3m2!1ses!2sco!4v1731343790323!5m2!1ses!2sco"
-             style="border:0; border-radius: 25px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); justify-content: center;" 
-             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
-        </div>
-        </div>
-    </footer>
+.menu a:hover {
+    background-color: #f7ea91;
+    color: #bf850f;
+    border-radius: 6px;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
-</body>
-</html>
+/* Estilo para la sección de Servicios */
+.servicios {
+    text-align: center;
+    padding: 60px 40px;
+    background-color: #f8f8f8;
+}
+
+.servicios h1 {
+    font-size: 2.8rem;
+    color: #222;
+    margin-bottom: 30px;
+}
+
+.lista-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+/* Estilo para las tarjetas de servicios */
+.servicio {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px; /* Necesario para el efecto 3D */
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.8s ease;
+}
+
+.servicio:hover .card {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Oculta el reverso cuando no está de frente */
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+}
+
+.front {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.back {
+    background-color: #ffffff;
+    color: #333;
+    font-size: 1rem;
+    transform: rotateY(180deg);
+    line-height: 1.6;
+}
+
+/* Imágenes de fondo específicas para cada servicio */
+.servicio-reduccion-corporal .front {
+    background-image: url('Images/servicios/reducción corporal.png');
+}
+
+.servicio-moldeamiento-contorno .front {
+    background-image: url('Images/servicios/moldeamiento.png');
+}
+
+.servicio-celulitis .front {
+    background-image: url('Images/servicios/celulitis.png');
+}
+
+.servicio-flacidez .front {
+    background-image: url('Images/servicios/flacidez corporal.png');
+}
+
+.servicio-relajacion .front {
+    background-image: url('Images/servicios/masaje relajante.png');
+}
+
+.servicio-descontractura .front {
+    background-image: url('Images/servicios/descontracturante.png');
+}
+
+.servicio-limpieza-basic-shine .front {
+    background-image: url('Images/servicios/facialbasica.png');
+}
+
+.servicio-limpieza-gold-special .front {
+    background-image: url('Images/servicios/facialavanzado.png');
+}
+
+.servicio-fototerapia .front {
+    background-image: url('Images/servicios/fototerapia.png');
+}
+
+/* Footer */
+.footer {
+    background-color: #f2d64a;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid #bf850f;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-column h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #fbf6c6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: #bf850f;
+}
+
+.footer-column p {
+    margin: 10px;
+}
+
+.footer-column iframe {
+    width: 50%; /* Ajusta según tu preferencia */
+    height: 200px; /* Ajusta según tu preferencia */
+    border: 0;
+    border-radius: 10px;
+}
+
+
+/* Botón de WhatsApp */
+.btn-wsp {
+    width: 80px;
+    background: #14923e;
+    border: #70f09b;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50% 50% 50% 20%;
+    bottom: 20px;
+    right: 25px;
+    padding: 5px;
+    transition: ease 0.3s;
+    animation: wsp 1.2s infinite;
+}
+
+.btn-wsp:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+/* Animación para el botón de WhatsApp */
+@keyframes wsp {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+/* Diseño Responsivo */
+@media (max-width: 768px) {
+    .lista-servicios {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .servicio {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .servicios h1 {
+        font-size: 2rem;
+    }
+}
