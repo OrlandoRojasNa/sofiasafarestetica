@@ -93,7 +93,7 @@ body {
 .front {
     background-size: cover;
     background-position: center;
-    color: white;
+    color: rgb(236, 195, 107);
     font-size: 1.5rem;
     font-weight: bold;
 }
